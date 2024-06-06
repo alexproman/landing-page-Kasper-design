@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="" srcset="">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li class="activeLink"><a href="#">home</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfoilo">portfoilo</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="slider">
+            <div class="slide">
+                <img src="./assets/img/slider/bg2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/img/slider/bg3.jpg" alt="">
+
+            </div>
+            <div class="slide">
+                <img src="./assets/img/slider/bg1.jpg" alt="">
+
+            </div>
+            <!-- <button class="slide-btn prev " >&#10094;</button> -->
+            <button class="slide-btn prev " onclick="slidePrev()">&#10094;</button>
+            <button class="slide-btn next" onclick="slideNext()">&#10095;</button>
+            <!-- <button class="slide-btn next" >&#10095;</button> -->
+            <div class="bullets">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <h2>Services</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col">
+                <div class="service">
+                    <i class="icon fa-solid fa-display"></i>
+                    <div class="text">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum temporibus? Expedita
+                            esse commodi ea architecto perspiciatis libero minima beatae?</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <i class="icon fa-solid fa-gear"></i>
+                    <div class="text">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum temporibus? Expedita
+                            esse commodi ea architecto perspiciatis libero minima beatae?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="service">
+                    <i class=" icon fa-solid fa-pen-to-square"></i>
+                    <div class="text">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum temporibus? Expedita
+                            esse commodi ea architecto perspiciatis libero minima beatae?</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <i class="icon fa-solid fa-camera-retro"></i>
+                    <div class="text">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum temporibus? Expedita
+                            esse commodi ea architecto perspiciatis libero minima beatae?</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-bottom">
+
+            <div class="iphones">
+                <img class="iphone black" src="./assets/img/icons/iphone-black.png" alt="">
+                <img class="iphone  white" src="./assets/img/icons/iphone-white.png" alt="">
+            </div>
+            <div class="services-description">
+                <h2>OUR DESIGNS COMES WITH...</h2>
+                <div class="discrp">
+                    <img src="./assets/img/icons/list-bg.png" alt="">
+                    <p>Responsive Design</p>
+                </div>
+                <div class="discrp">
+                    <img src="./assets/img/icons/list-bg.png" alt="">
+                    <p>Modern And Clean Design</p>
+                </div>
+                <div class="discrp">
+                    <img src="./assets/img/icons/list-bg.png" alt="">
+                    <p>Clean Code</p>
+                </div>
+                <div class="discrp">
+                    <img src="./assets/img/icons/list-bg.png" alt="">
+                    <p>Browser Friendly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=".services-header" id="portfoilo">
+        <div class="container">
+            <div class="services-header">
+                <h2>portfoilo</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+        </div>
+        <div class="btns-list">
+            <ul>
+                <li class="all"><a href="">all</a></li>
+                <li><a href="">app</a></li>
+                <li><a href="">phptography</a></li>
+                <li><a href="">web</a></li>
+                <li><a href="">print</a></li>
+            </ul>
+        </div>
+        <div class="sevirce-categories">
+            <div class="caregory-slider">
+                <div class="cat-slide-container">
+                    <div class="all-slides">
+                        <img src="./assets/img/portfolio/portfolio-3.jpg" alt="">
+                        <img src="./assets/img/portfolio/portfolio-2.jpg" alt="">
+                        <img src="./assets/img/portfolio/portfolio-1.jpg" alt="">
+                        <img src="./assets/img/portfolio/portfolio-5.jpg" alt="">
+                        <img src="./assets/img/portfolio/portfolio-3.jpg" alt="">
+                        <img src="./assets/img/portfolio/portfolio-4.jpg" alt="">
+                        <img src="./assets/img/portfolio/portfolio-2.jpg" alt="">
+                        <img src="./assets/img/portfolio/portfolio-1.jpg" alt="">
+                    </div>
+
+                    <i class="close-icon fa-solid fa-close"></i>
+                    <button class="cat-prev ">&#10094;</button>
+                    <button class="cat-next">&#10095;</button>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img src="./assets/img/portfolio/portfolio-1.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img src="./assets/img/portfolio/portfolio-4.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img src="./assets/img/portfolio/portfolio-3.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img src="./assets/img/portfolio/portfolio-1.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img src="./assets/img/portfolio/portfolio-5.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img src="./assets/img/portfolio/portfolio-2.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img class="cat-slide-img" src="./assets/img/portfolio/portfolio-4.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+            <div class="category">
+                <i class="plus-icon fa-solid fa-plus-circle"></i>
+                <img src="./assets/img/portfolio/portfolio-2.jpg" alt="">
+                <div class="description">
+                    <p>Awesome Image</p>
+                    <small>Photography</small>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="about-us" id="about">
+        <div class="container">
+            <div class="services-header">
+                <h2>about us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+        </div>
+        <div class="container about-container">
+            <img src="./assets/img/about.png" alt="" srcset="">
+        </div>
+        <div class="info">
+            <div class="counter">
+                <div class="box">
+                    <div class="icon-container">
+                        <i class="icon fa-solid fa-square-check"></i>
+                    </div>
+                    <h1 id="projects">0</h1>
+                    <span>Completed Projects</span>
+                </div>
+                <div class="box">
+                    <div class="icon-container">
+                        <i class="icon fa-solid fa-users"></i>
+                    </div>
+                    <h1 id="Clients">0</h1>
+                    <span>Satisfied Clients </span>
+                </div>
+                <div class="box">
+                    <div class="icon-container">
+                        <i class="icon fa-solid fa-clock"></i>
+                    </div>
+                    <h1 id="Hours">0</h1>
+                    <span>Working Hours</span>
+                </div>
+                <div class="box">
+                    <div class="icon-container">
+                        <i class="icon fa-solid fa-trophy"></i>
+                    </div>
+                    <h1 id="Award">0</h1>
+                    <span>Award Won</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="container team-skills-parent">
+            <div class="team-info">
+                <div class="text">
+                    <h2>TESTIMONIALS</h2>
+                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                </div>
+                <div class="persons-slider">
+                    <div class="slide slide1">
+                        <div class="person">
+                            <img src="./assets/img/client/2.jpg" alt="">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+                                elit, eget tincidunt.</p>
+                            <span><em>john doe,ceo</em></span>
+                        </div>
+                        <div class="person">
+                            <img src="./assets/img/client/1.jpg" alt="">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+                                elit, eget tincidunt.</p>
+                            <span><em>john doe,ceo</em></span>
+                        </div>
+                    </div>
+                    <div class="slide slide2">
+                        <div class="person">
+                            <img src="./assets/img/client/3.jpg" alt="">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+                                elit, eget tincidunt.</p>
+                            <span><em>john doe,ceo</em></span>
+                        </div>
+                        <div class="person">
+                            <img src="./assets/img/client/1.jpg" alt="">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+                                elit, eget tincidunt.</p>
+                            <span><em>john doe,ceo</em></span>
+                        </div>
+                    </div>
+                    <div class="slide slide3">
+                        <div class="person">
+                            <img src="./assets/img/client/2.jpg" alt="">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+                                elit, eget tincidunt.</p>
+                            <span><em>john doe,ceo</em></span>
+                        </div>
+                        <div class="person">
+                            <img src="./assets/img/client/3.jpg" alt="">
+                            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+                                elit, eget tincidunt.</p>
+                            <span><em>john doe,ceo</em></span>
+                        </div>
+
+                    </div>
+                </div>
+                <ul class="team-paj">
+                    <li class="active" onclick="teamDot(this.id)" id="0"></li>
+                    <li onclick="teamDot(this.id)" id="1"></li>
+                    <li onclick="teamDot(this.id)" id="2"></li>
+            </div>
+            <div class="skills-info">
+                <div class="text">
+                    <h2>OUR SKILLS</h2>
+                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                        eget tincidunt.</p>
+                </div>
+                <div class="progress">
+                    <div class="bar ">
+                        <div class="bg html5"></div>
+                        <div class="persent">
+                            <span>HTML 5 -</span>&nbsp;<small>95%</small>
+                        </div>
+
+                    </div>
+                    <div class="bar ">
+                        <div class="bg css3"></div>
+                        <div class="persent">
+                            <span>CSS 3 -</span>&nbsp;<small>93%</small>
+
+                        </div>
+                    </div>
+
+                    <div class="bar ">
+                        <div class="bg php"></div>
+                        <div class="persent">
+                            <span>PHP -</span>&nbsp;<small>85%</small>
+
+                        </div>
+                    </div>
+
+                    <div class="bar ">
+
+                        <div class=" bg mysql"></div>
+                        <div class="persent">
+                            <span>MYSQL -</span>&nbsp;<small>87%</small>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <div class="info john">
+        <div class="container">
+            <h2>
+                “ACCUMSAN ID CURABITUR ET PORTITOR MAURIS BLANDIT DOLOR LOREM SOME EST OUR DONEC STIN LORTIOS”
+            </h2>
+            <h4>John Doe</h4>
+        </div>
+    </div>
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="services-header">
+                <h2>PRICING</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+        </div>
+        <div class="container pricing-container">
+            <div class="col">
+                <div class="price-sec">
+                    <div class="price">
+                        <p>BASIC</p>
+                        <span>19</span>
+                    </div>
+                    <div class="Features">
+                        <p>Feature N0 1</p>
+                        <p>Feature N0 2</p>
+                        <p>Feature N0 3</p>
+                        <p>Feature N0 4</p>
+
+                    </div>
+                    <button class="buy-btn" type="button">buy now</button>
+                </div>
+                <div class="price-sec">
+                    <div class="price">
+                        <p>PREMIUM</p>
+                        <span>29</span>
+                    </div>
+                    <div class="Features">
+                        <p>Feature N0 1</p>
+                        <p>Feature N0 2</p>
+                        <p>Feature N0 3</p>
+                        <p>Feature N0 4</p>
+
+                    </div>
+                    <button class="buy-btn" type="button">buy now</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="price-sec">
+                    <div class="price">
+                        <p>PRO</p>
+                        <span>39</span>
+                    </div>
+                    <div class="Features">
+                        <p>Feature N0 1</p>
+                        <p>Feature N0 2</p>
+                        <p>Feature N0 3</p>
+                        <p>Feature N0 4</p>
+
+                    </div>
+                    <button class="buy-btn" type="button">buy now</button>
+                </div>
+                <div class="price-sec">
+                    <div class="price">
+                        <p>PLATINUM</p>
+                        <span>49</span>
+                    </div>
+                    <div class="Features">
+                        <p>Feature N0 1</p>
+                        <p>Feature N0 2</p>
+                        <p>Feature N0 3</p>
+                        <p>Feature N0 4</p>
+
+                    </div>
+                    <button class="buy-btn" type="button">buy now</button>
+                </div>
+            </div>
+        </div>
+        <div class="container contact">
+            <p>Contact us if you have special request</p>
+            <button class="contact-btn" type="button">contact us</button>
+        </div>
+    </section>
+    <section class="subscribe-sec">
+        <div class="info contact">
+            <div class="container">
+                <div class="subscribe">
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="YOUR MAIL" autocomplete="off">
+                    <button class="subscribe-btn" type="submit">subscribe</button>
+                </div>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact-sec" id="contact">
+        <div class="container">
+            <div class="services-header">
+                <h2>contact us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.</p>
+            </div>
+        </div>
+        <div class="container contact-container">
+            <div class="contact-form">
+                <div class="name-email">
+                    <input type="text" name="name" id="name" placeholder="Your Name" autocomplete="off">
+                    <input type="email" name="e-mail" id="e-mail" placeholder="Your Email" autocomplete="off">
+                </div>
+
+            </div>
+            <div class="contact-form">
+                <div class="name-email">
+                    <textarea name="message" id="message" placeholder="Your Message" autocomplete="off"></textarea>
+                    <button class="send-message" type="submit">send message</button>
+                </div>
+            </div>
+        </div>
+        <div class="phone">
+            <p> <i class="icon fa-solid fa-phone"></i> : <span>+00 123.456.789</span>&nbsp;&nbsp;&nbsp;<span>+00
+                    123.456.789</span></p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="info">
+            <img src="./assets/img/logo.png" alt="logo">
+            <h3>WE ARE SOCIAL</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/graphberry" target="_blank"><i
+                        class="icon fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/graphberry" target="_blank"><i
+                        class="icon fa-brands fa-twitter"></i></a>
+                <a href="https:www.gmail.com" target="_blank"><i class="icon fa-brands fa-google-plus-g"></i></a>
+                <a href="https:www.google.com" target="_blank"><i class="icon fa-solid fa-globe"></i></a>
+            </div>
+            <p>Theme by <a href="https://GraphBerry.com" target="_blank">GraphBerry.com</a> Developed by <a
+                    href="https://themefisher.com/" target="_blank">Themefisher</a></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
